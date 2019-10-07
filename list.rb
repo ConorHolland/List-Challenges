@@ -87,6 +87,10 @@ end
 # puts count_code("cotechowcodecodecode")
 
 def middle_way(list)
-    puts "nums"
-end
+    middle = []
+    middle2 = []
+    newlist = []
 
+    middle = ()
+
+end
