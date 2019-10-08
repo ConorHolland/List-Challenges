@@ -81,16 +81,23 @@ def count_code(string)
         count += 1
         end
     end
-    return count
+    return count 
 end
 
-# puts count_code("cotechowcodecodecode")
+puts count_code("cowechowcowecodecode")
 
-def middle_way(list)
+def middle_way(list,list2)
     middle = []
     middle2 = []
     newlist = []
 
-    middle = ()
+    middle = list[list.size / 2]
+    middle2 = list2[list2.size / 2]
 
+    newlist.push(middle, middle2)
+
+    return newlist
+    
 end
+
+print middle_way([1, 3, 5], [2, 4, 6])
